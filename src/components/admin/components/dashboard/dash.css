@@ -1,0 +1,105 @@
+.dash_cont{
+    
+    width: 100%;
+}
+.dash_cont .dash_main{
+    margin-left: 350px;
+    /* border: 1px solid red; */
+    height: auto;
+}
+.title{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(10, 10, 99);
+}
+.subtitle{
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(127, 127, 150);
+}
+.dash_content{
+    width: 100%;
+    border: 1px solid blue;
+    display: flex;
+    gap: 20px;
+}
+.dash_cont .dash_left{
+    border: 1px solid red;
+    width: 60%;
+}
+.dash_cont .dash_right{
+width: 40%;
+border: 1px solid green;
+}
+.dash_left .top_cards{
+    margin: 20px 0px;
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+}
+ .top_Card{
+    margin-left: 10px;
+    background: white;
+    border-radius: 5px;
+    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.top_Card .topic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+.rest_content{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.rest_content .left .cart{
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: blue;
+    background: aliceblue;
+    margin-left: 20px;
+    font-size: 30px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart2{
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+    background: rgb(240, 233, 225);
+    margin-left: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chart{
+    width: 98%;
+    height: 15rem;
+   
+    background: white;
+    margin: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.chart2{
+    width: 90%;
+    height: 20rem;
+    margin: auto;
+    background: white;
+    margin: 20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
